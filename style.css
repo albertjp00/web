@@ -209,6 +209,7 @@ span{
     padding: 20px 0px 15px;
     margin-top: 20px;
     margin-bottom: 1 rem;
+    box-shadow: 0 0 5px;
 }
 
 .box11{
@@ -227,6 +228,7 @@ span{
     margin-top:10px ;
     margin-bottom: 23px;
     background-size: cover;
+    background-position: center;
     
 }
 
@@ -272,6 +274,18 @@ span{
     font-weight: 510;
 }
 
+.line-images{
+    background-color: #ffffff;
+    display: flex;
+    overflow: auto;
+    padding: 9px;
+    margin: 9px;
+
+}
+
+.line-images img{
+    padding: 5px;
+}
 
 
 footer{
@@ -315,7 +329,7 @@ ul a{
 }
 
 .logo2{
-    background-image: url(amazonlogo.png);
+    background-image: url(amazon_images/amazonlogo.png);
     background-size: cover;
     height: 50px;
     width: 110px;
